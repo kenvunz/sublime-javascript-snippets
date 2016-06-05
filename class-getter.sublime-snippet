@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+get ${1:prop}() {
+	return this.${1:prop};
+}
+]]></content>
+	<tabTrigger>clg</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>class getter</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+const ${1:methodName} = (${2:arguments}) => {
+	${3}
+}
+]]></content>
+	<tabTrigger>arfn</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>arrow function</description>
+</snippet>

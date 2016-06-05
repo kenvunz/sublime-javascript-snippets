@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+class ${1:name} {
+	constructor(${2:props}) {
+		this.${3:prop} = ${3:prop};
+	}
+}
+]]></content>
+	<tabTrigger>cld</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>class definition</description>
+</snippet>
