@@ -190,10 +190,26 @@ function ${1:methodName}(${2:arguments}) {
 }
 ```
 
+### [arfn] arrow function
+
+```javascript
+const ${1:methodName} = (${2:arguments}) => {
+	${3}
+}
+```
+
 ### [afn] anonymous function
 
 ```javascript
 function(${1:arguments}) {
+	${2}
+}
+```
+
+### [aarfn] anonymous arrow function
+
+```javascript
+(${1:arguments}) => {
 	${2}
 }
 ```
@@ -286,6 +302,24 @@ assert.deepEqual(${1:actual}, ${2:expected});
 assert.notEqual(${1:actual}, ${2:expected});
 ```
 
+### [ex] export
+
+```javascript
+export ${1:expression};
+```
+
+### [exd] export default
+
+```javascript
+export default ${1:expression};
+```
+
+### [if] import from
+
+```javascript
+import ${1:name} from '${2:module}';
+```
+
 ### [me] module.exports
 
 ```javascript
@@ -303,6 +337,7 @@ process.exit(${1:code});
 ```javascript
 require('${1:module}');
 ```
+
 ## BDD
 
 ### [desc] describe
@@ -312,6 +347,7 @@ describe('${1:description}', function() {
 	${2}
 });
 ```
+
 ### [ita] it asynchronous
 
 ```javascript
@@ -358,6 +394,45 @@ confirm('${1:msg}');
 
 ```javascript
 prompt('${1:msg}');
+```
+
+## Classes
+
+### [cld] class definition
+
+```javascript
+class ${1:name} {
+	constructor(${2:props}) {
+		this.${3:prop} = ${3:prop};
+	}
+}
+```
+
+### [cli] class inheritance
+
+```javascript
+class ${1:name} extends ${2:inherit} {
+	constructor(${3:props}) {
+		super(${4:inheritedProps});
+		this.${5:prop} = ${5:prop};
+	}
+}
+```
+
+### [clg] class getter
+
+```javascript
+get ${1:prop}() {
+	return this.${1:prop};
+}
+```
+
+### [cls] class setter
+
+```javascript
+set ${1:prop}(${1:prop}) {
+	this.${1:prop} = ${1:prop};
+}
 ```
 
 ## Contributing

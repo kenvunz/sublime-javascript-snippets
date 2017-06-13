@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+set ${1:prop}(${1:prop}) {
+	this.${1:prop} = ${1:prop};
+}
+]]></content>
+	<tabTrigger>cls</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>class setter</description>
+</snippet>

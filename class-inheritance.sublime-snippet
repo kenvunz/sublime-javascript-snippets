@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+class ${1:name} extends ${2:inherit} {
+	constructor(${3:props}) {
+		super(${4:inheritedProps});
+		this.${5:prop} = ${5:prop};
+	}
+}
+]]></content>
+	<tabTrigger>cli</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>class inheritance</description>
+</snippet>

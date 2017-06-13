@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(${1:arguments}) => {
+	${2}
+}
+]]></content>
+	<tabTrigger>aarfn</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>anonymous arrow function</description>
+</snippet>
